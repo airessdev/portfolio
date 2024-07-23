@@ -18,7 +18,7 @@ const Welcome = () => {
                 <p className="animated-text">Hi! I'm a passionate frontend developer with expertise in creating responsive and interactive web applications. Explore my projects and get to know more about my skills and experience.</p>
                 <button onClick={handleButtonClick} className="animated-button">Get Started</button>
             </div>
-            <Footer />
+            
         </div>
     );
 }

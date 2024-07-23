@@ -11,12 +11,13 @@ const Router = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate replace to="/Welcome" />} />
+        <Route path="/portfolio" element={<Navigate replace to="/Welcome" />} />
         <Route path="/Welcome" element={<Welcome />} />
         <Route path="/accueil" element={<Accueil />} />
         <Route path="/apropos" element={<Apropos />} />
-        <Route path="*" element={<Erreur />} />
-        {/* route tout le reste pour les erreurs 404 */}
         <Route path="/logement/:id" element={<Logement />} />
+        <Route path="*" element={<Erreur />} />
+
       </Routes>
     </BrowserRouter>
   );

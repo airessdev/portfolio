@@ -12,6 +12,7 @@ import "./Logement.css";
 
 const Logement = () => {
   const { id } = useParams();
+  console.log(id);
   const navigate = useNavigate();
   const elementHostel = Data.find((item) => item.id === id);
 
@@ -59,6 +60,58 @@ const Logement = () => {
             <p>{lien}</p>
           </Collapse>
         </div>
+        {id === "b9123946" &&
+          <div className="housing-collapse"> <Collapse title="compétences">
+
+
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsive Design</li>
+            </ul>
+          </Collapse>
+          </div>}
+
+        {id === "46d188c5" &&
+          <div className="housing-collapse"> <Collapse title="compétences">
+
+
+            <ul>
+              <li>Mobile First</li>
+              <li>SASS</li>
+              <li>Animation HTML5/CSS3</li>
+              <li>FlexBox</li>
+            </ul>
+          </Collapse>
+          </div>}
+        {id === "7af00cd6" &&
+          <div className="housing-collapse"> <Collapse title="compétences">
+
+
+            <ul>
+              <li>JavaScript</li>
+            </ul>
+          </Collapse>
+          </div>}
+        {id === "b4c67936" &&
+          <div className="housing-collapse"> <Collapse title="compétences">
+            <ul>
+              <li>ReactJS</li>
+              <li>Hook react: UseState </li>
+              <li>React Router Dom</li>
+            </ul>
+          </Collapse>
+          </div>}
+        {id === "bc6f7112" &&
+          <div className="housing-collapse"> <Collapse title="compétences">
+            <ul>
+              <li>optimisation du référencement (SEO)</li>
+              <li>LightHouse</li>
+              <li>microdonnées Schema.org</li>
+              <li>Rich Snippet Google</li>
+            </ul>
+          </Collapse>
+          </div>}
         <div className="frame-container">
           <iframe className="frame" title="mon site" src={lien}></iframe>
         </div>
