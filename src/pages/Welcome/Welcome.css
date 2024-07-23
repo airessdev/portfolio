@@ -1,0 +1,105 @@
+/* Welcome.css */
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 130vh;
+}
+
+.welcome-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.animated-title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: fadeInTitle 1s forwards;
+}
+
+.animated-title span {
+  color: #ff6060;
+}
+
+.animated-text {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+  max-width: 600px;
+  opacity: 0;
+  animation: fadeInText 1.5s forwards;
+}
+
+.animated-button {
+  background-color: #ff6060;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  opacity: 0;
+  animation: fadeInButton 2s forwards;
+}
+
+.animated-button:hover {
+  transform: scale(1.05);
+  background-color: #e55555;
+}
+
+@media (max-width: 768px) {
+  .animated-title {
+    font-size: 2.5rem;
+  }
+
+  .animated-text {
+    font-size: 1rem;
+  }
+
+  .animated-button {
+    padding: 8px 16px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .animated-title {
+    font-size: 2rem;
+  }
+
+  .animated-text {
+    font-size: 0.9rem;
+  }
+
+  .animated-button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+@keyframes fadeInTitle {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInText {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInButton {
+  to {
+    opacity: 1;
+  }
+}

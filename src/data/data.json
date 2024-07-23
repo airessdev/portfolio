@@ -1,0 +1,101 @@
+[
+  
+  {
+    "id": "b9123946",
+    "title": "Booki",
+    "cover": "https://airessdev.github.io/booki-starter-code-master-main-new-main/images/hebergements/fred-kleber.jpg",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
+    ],
+    "description": "Implémenter une interface responsive avec HTML et CSS ,Installer un environnement de développement front-end ,Intégrer du contenu conformément à une maquette avec HTML et CSSValidé",
+    "host": {
+      "name": "Della Case",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
+    },
+    "rating": "4",
+    "lien":"https://airessdev.github.io/booki-starter-code-master-main-new-main/"
+    
+  },
+  {
+    "id": "46d188c5",
+    "title": "OhMyFood",
+    "cover": "https://airessdev.github.io/homyfood/assets/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg",
+    "pictures": [
+      "https://airessdev.github.io/homyfood/assets/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg",
+      "https://airessdev.github.io/homyfood/assets/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg",
+      "https://airessdev.github.io/homyfood/assets/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+      
+    ],
+    "description": "Intégrer une maquette en mobile-first , Mettre en œuvre des animations CSS ,Versionner son projet avec Git et Github",
+    "host": {
+      "name": "Franck Maher",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
+    },
+    "rating": "3",
+    "lien":"https://airessdev.github.io/homyfood/"
+
+   
+  },
+  {
+    "id": "7af00cd6",
+    "title": "Print-It",
+    "cover": "https://airessdev.github.io/Print-it-JS-main/assets/images/logo.png",
+    "pictures": [
+      "https://airessdev.github.io/Print-it-JS-main/assets/images/slideshow/slide2.jpg",
+      "https://airessdev.github.io/Print-it-JS-main/assets/images/slideshow/slide3.jpg",
+      "https://airessdev.github.io/Print-it-JS-main/assets/images/slideshow/slide4.png"
+      
+    ],
+    "description": "Réalisation d'un carrousel en JS",
+    "host": {
+      "name": "Della Case",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
+    },
+    "rating": "3",
+    "lien":"https://airessdev.github.io/Print-it-JS-main/"
+   
+  },
+
+  
+  {
+    "id": "b4c67936",
+    "title": "Kazaa",
+    "cover": "https://user.oc-static.com/upload/2023/04/03/1680512368252_Kasa%20logo.png",
+    "pictures": [
+      "https://user.oc-static.com/upload/2023/04/03/1680512368252_Kasa%20logo.png"
+      
+    ],
+    "description": "Configurer la navigation entre les pages de l'application avec React Router,Développer des éléments de l'interface d'un site web grâce à des composants React",
+    "host": {
+      "name": "Hugo Perrier",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
+    },
+    "rating": "3",
+    "lien":"https://airessdev.github.io/kasa-app-final/"
+  },
+  {
+    "id": "bc6f7112",
+    "title": "Nina Carducci",
+    "cover": "https://ninacarducci.github.io/assets/images/nina.png",
+    "pictures": [
+      "https://ninacarducci.github.io/assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg",
+      "https://ninacarducci.github.io/assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"
+      
+    ],
+    "description": "Optimiser la performance d'un site web",
+    "host": {
+      "name": "Sébastien Fournier",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg"
+    },
+    "rating": "3",
+    "lien":"https://airessdev.github.io/ninacarducci.github--1-.io-main/"
+  }
+ 
+  
+ 
+]
