@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bf1e286b.css",
-    "main.js": "/portfolio/static/js/main.e8828a25.js",
+    "main.js": "/portfolio/static/js/main.8ce3525c.js",
     "static/media/logo-portfolio.jpeg": "/portfolio/static/media/logo-portfolio.610bf291c5e790d603a2.jpeg",
     "static/media/logo-minitel.jpeg": "/portfolio/static/media/logo-minitel.8002a3597cbf5fe3fd96.jpeg",
     "index.html": "/portfolio/index.html",
@@ -9,10 +9,10 @@
     "static/media/star-empty.svg": "/portfolio/static/media/star-empty.86e47441d7cad86bfed5b2506d3c55c7.svg",
     "static/media/star-full.svg": "/portfolio/static/media/star-full.e0e32bd47ca1d29402e5265a1dc1a3f2.svg",
     "main.bf1e286b.css.map": "/portfolio/static/css/main.bf1e286b.css.map",
-    "main.e8828a25.js.map": "/portfolio/static/js/main.e8828a25.js.map"
+    "main.8ce3525c.js.map": "/portfolio/static/js/main.8ce3525c.js.map"
   },
   "entrypoints": [
     "static/css/main.bf1e286b.css",
-    "static/js/main.e8828a25.js"
+    "static/js/main.8ce3525c.js"
   ]
 }
