@@ -5,7 +5,7 @@ const Cards = ({ item }) => {
   return (
 
     <div key={item.id} className="card">
-      <Link to={`/logement/${item.id}`} className="card-link">
+      <Link to={`/Portfolio/${item.id}`} className="card-link">
 
         <div className="img-container">
           <img src={item.cover} alt={item.title} />

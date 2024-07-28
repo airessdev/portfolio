@@ -8,9 +8,9 @@ import Host from "../../components/Host/Host";
 import Slideshow from "../../components/Slideshow/Slideshow";
 import Data from "../../data/data.json";
 
-import "./Logement.css";
+import "./Portfolio.css";
 
-const Logement = () => {
+const Portfolio = () => {
   const { id } = useParams();
   console.log(id);
   const navigate = useNavigate();
@@ -121,4 +121,4 @@ const Logement = () => {
   );
 };
 
-export default Logement;
+export default Portfolio;
