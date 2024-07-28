@@ -1,6 +1,5 @@
 
-import { useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import Collapse from "../../components/Collapse/Collapse";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
@@ -13,16 +12,17 @@ import "./Portfolio.css";
 const Portfolio = () => {
   const { id } = useParams();
   console.log(id);
-  const navigate = useNavigate();
+
   const elementHostel = Data.find((item) => item.id === id);
 
-  useEffect(() => {
-    if (!elementHostel) {
-      navigate("/404");
-    }
-  }, [elementHostel, navigate]);
 
-  if (!elementHostel) return null;
+  if (!elementHostel) {
+
+    return (
+      <Navigate to="/erreur" replace={true} />
+    )
+
+  }
 
   const {
     pictures,
