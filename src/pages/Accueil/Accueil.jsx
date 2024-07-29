@@ -1,5 +1,4 @@
 
-
 import Data from "../../data/data.json";
 import Cards from "../../components/Cards/Cards";
 
