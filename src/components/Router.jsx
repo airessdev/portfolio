@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { HashRouter, BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import Accueil from "../pages/Accueil/Accueil";
 import Apropos from "../pages/About/Apropos";
@@ -8,7 +8,7 @@ import Welcome from "../pages/Welcome/Welcome";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route index element={<Welcome />} />
         <Route path="/portfolio" element={<Navigate replace to="/welcome" />} />
@@ -19,7 +19,7 @@ const Router = () => {
         <Route path="*" element={<Erreur />} />
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
